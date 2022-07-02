@@ -1,53 +1,22 @@
-nclude <stdio.h>
-
-#include <stdlib.h>
-
-#include <time.h>
-
-
+#include <stdio.h>
 
 /**
- *
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
-
-
-
+ * main - prints all possible combinations of single-digit numbers
+ * Return: Always 0 (Success)
+ */
 int main(void)
-
 {
+	int n;
 
-		int d;
-
-
-
-			for (d = '0'; d <= '9'; d++)
-
-					{
-
-								putchar(d);
-
-										if (d != '9')
-
-													{
-
-																	putchar(',');
-
-																				putchar(' ');
-
-																						}
-
-											}
-
-				putchar('\n');
-
-
-
-					return (0);
-
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+		if (n != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
 }
