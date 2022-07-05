@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * Main - check ifit is lowecase
- *
- * Return (1) or (0)
+ * @c: an imput character
+ * Description: function uses putchar to print
+ * Return: 1 if is lowercase or 0 if its uppercase
  */
 int _islower(int c)
 {
