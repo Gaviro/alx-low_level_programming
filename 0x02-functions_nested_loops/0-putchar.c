@@ -2,7 +2,7 @@
 
 /**
  * Main - prints putchar
- * this fumction print putchar
+ * Description: this fumction print putchar
  * Return: always 0
  */
 int main(void)
